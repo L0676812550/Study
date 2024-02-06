@@ -160,3 +160,10 @@
 // const b = +input.charAt(1);
 // const c = +input.charAt(2);
 // console.log(a + b + c);
+
+let arr = ["a", "b", "c", "d", "f"];
+let a = [1, 2, 3];
+
+console.log(arr.concat(a, "test"));
+
+
