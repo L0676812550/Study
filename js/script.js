@@ -161,9 +161,81 @@
 // const c = +input.charAt(2);
 // console.log(a + b + c);
 
-let arr = ["a", "b", "c", "d", "f"];
-let a = [1, 2, 3];
+//______________________________________________________________
 
-console.log(arr.concat(a, "test"));
+//Урок №3
+
+//***1** -- 
+// У вас є масив об’єктів fruts, і в кожному з них є name 
+// Напишіть код, який перетворює їх в масив імен. 
+// const fruts = [ //   { id: 0, name: "Apple" }, 
+//   { id: 1, name: "Tomat" }, 
+//   { id: 2, name: "Cherry" }, 
+//   { id: 3, name: "Orange" }, 
+// ]; 
+
+// const names = fruts.map(frut => frut.name);
+// console.log(names);
+
+//  *** 2 ** 
+//Виведіть парні числа від 2 до 10, використовуючи цикл for. 
+
+for (let a = 2; a <= 10; a++) {
+  if (a % 2) continue;
+  console.log(a);
+}
+
+//  *** 3 ** 
+//Замініть цикл "for" на "while" 
+// for (let i = 0; i < 5; i++) { 
+//     console.log( `цифра ${i}!` ); 
+//   } 
+
+// let i = 0;
+// while (i < 5) {
+//   console.log(`цифра ${i}!`);
+//   i++;
+// }
+//  *** 4 ** 
+//Напишіть цикл, який пропонує prompt ввести число більше за 100. 
+//Якщо відвідувач введе менше число – попросити ввести ще раз, і так далі. 
+//Цикл повинен запитувати число доти, доки відвідувач не введе число, 
+// більше за 100, або не скасує ввід/введе порожній рядок. 
+
+// let number;
+
+// while (true) {
+//   number = prompt('Enter a number greater than 100');
+
+//   if (number === null) {
+//     alert("Ви скасували введення.");
+//     break;
+//   }
+
+//   if (isNaN(number)) {
+//     alert('You entered not number. Try again.');
+//     continue;
+//   }
+
+//   if (+number > 100) {
+//     alert('You entered a number greater than 100: ' + number);
+//     break;
+//   } else {
+//       alert('You entered a number that is less than or equal to 100. Please try again.')
+//     }
+// }
+
+  
+
+//  *** 5 ** 
+// Вирахуйте середній вік 
+// const girls = [ 
+//   { age: 23, name: "Оля" }, 
+//   { age: 29, name: "Аня" }, 
+//   { age: 10, name: "Юля" },
+//   { age: 20, name: "Катя" }, 
+// ];
+// const
 
 
+280 800 60 ---20 180
